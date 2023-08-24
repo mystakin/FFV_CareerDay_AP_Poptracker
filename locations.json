@@ -662,7 +662,7 @@
 			},
 			{
 				"name": "Great Trench",
-				"access_rules": [ "trench,sub" ],
+				"access_rules": [ "trench" ],
 				"sections": [
 					{
 						"name": "Gargoyles",
