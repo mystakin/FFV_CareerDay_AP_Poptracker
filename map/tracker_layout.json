@@ -1,0 +1,277 @@
+﻿{
+	"map_enabled": true,
+	"auto_pin_capturing_locations": true,
+	"auto_unpin_on_clear": true,
+	"allow_resize": true,
+	"layout_swap_left_right": false,
+	"disabled_image_filter": "grayscale, dim",
+	"layouts": {
+		"shared_item_grid": {
+			"type": "array",
+			"h_alignment": "vertical",
+			"content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"margin": "0,0,0,0",
+					"content": [
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "0,-16,0,0",
+							"content": [
+								{
+									"type": "itemgrid",
+									"h_alignment": "center",
+									"item_margin": "1,1",
+									"rows": [ 
+										[
+											"ke",
+											"yi",
+											"te",
+											"ms"
+										],
+										[
+											"pyramid",
+											"shrine",
+											"trench",
+											"falls"
+										],
+										[
+											"walse",
+											"steamship",
+											"sub",
+											"bridge"
+										],
+										[
+											"adamantite",
+											"branch",
+											"hiryuu",
+											"bracelet"
+										],
+										[
+										  "antibarrier",
+											"fire",
+											"moogle",
+											"bait"
+										],
+										[
+											"tablet",
+											"radar",
+											"map1"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "array",
+							"orientation": "horizontal",
+							"margin": "0,-16,0,0",
+							"content": [
+								{
+									"type": "itemgrid",
+									"h_alignment": "center",
+									"item_margin": "1,1",
+									"rows": [
+										[ 	"label_knight",
+											"label_monk",
+											"label_thief",
+											"label_dragoon",
+											"label_ninja",
+											"label_samurai",
+											"label_berserkr",
+											"label_hunter",
+											"label_mystic",
+											"label_wmage",
+											"label_bmage" ],
+										[
+											"butz_knight",
+											"butz_monk",
+											"butz_thief",
+											"butz_dragoon",
+											"butz_ninja",
+											"butz_samurai",
+											"butz_berserkr",
+											"butz_hunter",
+											"butz_mystic",
+											"butz_wmage",
+											"butz_bmage"
+										],
+										[
+											"lenna_knight",
+											"lenna_monk",
+											"lenna_thief",
+											"lenna_dragoon",
+											"lenna_ninja",
+											"lenna_samurai",
+											"lenna_berserkr",
+											"lenna_hunter",
+											"lenna_mystic",
+											"lenna_wmage",
+											"lenna_bmage"
+										],
+										[
+											"cara_knight",
+											"cara_monk",
+											"cara_thief",
+											"cara_dragoon",
+											"cara_ninja",
+											"cara_samurai",
+											"cara_berserkr",
+											"cara_hunter",
+											"cara_mystic",
+											"cara_wmage",
+											"cara_bmage"
+										],
+										[
+											"faris_knight",
+											"faris_monk",
+											"faris_thief",
+											"faris_dragoon",
+											"faris_ninja",
+											"faris_samurai",
+											"faris_berserkr",
+											"faris_hunter",
+											"faris_mystic",
+											"faris_wmage",
+											"faris_bmage"
+										],
+										[ 	"label_tmage",
+											"label_summoner",
+											"label_bluemage",
+											"label_rmage",
+											"label_trainer",
+											"label_chemist",
+											"label_geomancr",
+											"label_bard",
+											"label_dancer",
+											"label_mimic",
+											"label_freelancer" ],
+										[
+											"butz_tmage",
+											"butz_summoner",
+											"butz_bluemage",
+											"butz_rmage",
+											"butz_trainer",
+											"butz_chemist",
+											"butz_geomancr",
+											"butz_bard",
+											"butz_dancer",
+											"butz_mimic",
+											"butz_freelancer"
+										],
+										[
+											"lenna_tmage",
+											"lenna_summoner",
+											"lenna_bluemage",
+											"lenna_rmage",
+											"lenna_trainer",
+											"lenna_chemist",
+											"lenna_geomancr",
+											"lenna_bard",
+											"lenna_dancer",
+											"lenna_mimic",
+											"lenna_freelancer"
+										],
+										[
+											"cara_tmage",
+											"cara_summoner",
+											"cara_bluemage",
+											"cara_rmage",
+											"cara_trainer",
+											"cara_chemist",
+											"cara_geomancr",
+											"cara_bard",
+											"cara_dancer",
+											"cara_mimic",
+											"cara_freelancer"
+										],
+										[
+											"faris_tmage",
+											"faris_summoner",
+											"faris_bluemage",
+											"faris_rmage",
+											"faris_trainer",
+											"faris_chemist",
+											"faris_geomancr",
+											"faris_bard",
+											"faris_dancer",
+											"faris_mimic",
+											"faris_freelancer"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"tracker_default": {
+			"type": "container",
+			"background": "#212121",
+			"content": {
+				"type": "dock",
+				"dock": "bottom",
+				"dropshadow": true,
+				"content": [
+					{
+						"type": "dock",
+						"dock": "bottom",
+						"h_alignment": "stretch",
+						"content": [
+							{
+								"type": "dock",
+								"dock": "bottom",
+								"content": [
+									{
+										"type": "group",
+										"header": "Items",
+										"dock": "bottom",
+										"content": {
+											"type": "layout",
+											"key": "shared_item_grid"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "tabbed",
+						"tabs": [
+							{
+								"title": "World 1",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world1"
+									]
+								}
+							},
+							{
+								"title": "World 2",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world2"
+									]
+								}
+							},
+							{
+								"title": "World 3",
+								"content": {
+									"type": "map",
+									"maps": [
+										"world3"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

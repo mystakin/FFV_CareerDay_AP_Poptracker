@@ -1,0 +1,1547 @@
+﻿[
+
+	// Tablets
+	{
+    "name": "tablet",
+    "type": "progressive",
+	"allow_disabled": false,
+	"stages": [
+		  {
+			"img": "images/tablet_grey.png",
+			"codes": "tablet"
+		  },{
+			"img": "images/tablet1_alt.png",
+			"codes": "tablet1"
+		  },
+		  {
+			"img": "images/tablet2_alt.png",
+			"codes": "tablet2"
+		  },
+		  {
+			"img": "images/tablet3_alt.png",
+			"codes": "tablet3"
+		  },
+		  {
+			"img": "images/tablet4_alt.png",
+			"codes": "tablet4"
+		  }
+		]
+	},
+  
+  	// Worlds
+	{
+    "name": "world",
+    "type": "progressive",
+	"allow_disabled": false,
+	"stages": [
+		  {
+			"img": "images/map1.png",
+			"codes": "map1"
+		  },
+		  {
+			"img": "images/map2.png",
+			"codes": "map2"
+		  },
+		  {
+			"img": "images/map3.png",
+			"codes": "map3"
+		  },
+		  {
+			"img": "images/the_void.png",
+			"codes": "map4"
+		  }
+		]
+	},
+  
+  // Pyramid Page
+  {
+    "name": "pyramid",
+    "type": "toggle",
+    "img": "images/pyramid_page2.png",
+    "codes": "pyramid"
+  },
+  
+  // Shrine Page
+  {
+    "name": "shrine",
+    "type": "toggle",
+    "img": "images/shrine_page2.png",
+    "codes": "shrine"
+  },
+  
+  // Trench Page
+  {
+    "name": "trench",
+    "type": "toggle",
+    "img": "images/trench_page2.png",
+    "codes": "trench"
+  },
+  
+  // Falls Page
+  {
+    "name": "falls",
+    "type": "toggle",
+    "img": "images/falls_page2.png",
+    "codes": "falls"
+  },
+  
+  // Walse Key
+  {
+    "name": "walse",
+    "type": "toggle",
+    "img": "images/walse_key2.png",
+    "codes": "walse"
+  },
+  
+  // Steamship Key
+  {
+    "name": "steamship",
+    "type": "toggle",
+    "img": "images/steamship_key2.png",
+    "codes": "steamship"
+  },
+  
+  // Big Bridge Key
+  {
+    "name": "bridge",
+    "type": "toggle",
+    "img": "images/bridge_key2.png",
+    "codes": "bridge"
+  },
+  
+  // Submarine Key
+  {
+    "name": "sub",
+    "type": "toggle",
+    "img": "images/sub_key2.png",
+    "codes": "sub"
+  },
+  
+  // Canal Key
+  {
+    "name": "canal",
+    "type": "toggle",
+    "img": "images/canal_key2.png",
+    "codes": "canal"
+  },
+  
+  // Adamantite
+  {
+    "name": "adamantite",
+    "type": "toggle",
+    "img": "images/adamantite.png",
+    "codes": "adamantite"
+  },
+  
+  // Elder Branch
+  {
+    "name": "branch",
+    "type": "toggle",
+    "img": "images/branch.png",
+    "codes": "branch"
+  },
+  
+  // Hiryuu Call
+  {
+    "name": "hiryuu",
+    "type": "toggle",
+    "img": "images/hiryuu.png",
+    "codes": "hiryuu"
+  },
+  
+  // Bracelet
+  {
+    "name": "bracelet",
+    "type": "toggle",
+    "img": "images/bracelet.png",
+    "codes": "bracelet"
+  },
+  
+  // Antibarrier
+  {
+    "name": "antibarrier",
+    "type": "toggle",
+    "img": "images/antibarrier.png",
+    "codes": "antibarrier"
+  },
+
+  // Ifrit's Fire
+  {
+    "name": "fire",
+    "type": "toggle",
+    "img": "images/fire.png",
+    "codes": "fire"
+  },
+
+  // Moogle Suit
+  {
+    "name": "moogle",
+    "type": "toggle",
+    "img": "images/moogle.png",
+    "codes": "moogle"
+  },
+
+  // Sandworm Bait
+  {
+    "name": "bait",
+    "type": "toggle",
+    "img": "images/bait.png",
+    "codes": "bait"
+  },
+	
+  // Mirage Radar
+  {
+    "name": "radar",
+    "type": "toggle",
+    "img": "images/mirage_radar.png",
+    "codes": "radar"
+  },
+  
+  // Wing Raptor
+  {
+    "name": "Wing Raptor",
+    "type": "toggle",
+	"loop": "true",
+    "img": "images/bosses/wingraptor.png",
+    "codes": "wingraptor"
+  },
+
+  // Wing Raptor Check
+  {
+    "name": "wingraptor x",
+    "type": "toggle_badged",
+    "base_item": "wingraptor",
+    "img": "images/bosses/check.png",
+    "codes": "wingraptorx"
+  },
+	
+  // Karlabos
+  {
+    "name": "karlibos",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/karlibos.png",
+    "codes": "karlibos"
+  },
+
+  // Karlabos x
+  {
+    "name": "karlibos x",
+    "type": "toggle_badged",
+    "base_item": "karlibos",
+    "img": "images/bosses/check.png",
+    "codes": "karlibosx"
+  },
+	
+	// Siren
+  {
+    "name": "siren",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/siren.png",
+    "codes": "siren"
+  },
+	
+	// Magisa
+  {
+    "name": "magisa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/magisa.png",
+    "codes": "magisa"
+  },
+	
+	// Galura
+  {
+    "name": "galura",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/galura.png",
+    "codes": "galura"
+  },
+	
+	// LiquiFlame
+  {
+    "name": "liquidflame",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/liquidflame_alt.png",
+    "codes": "liquidflame"
+  },
+	
+	// Iron Claw
+  {
+    "name": "ironclaw",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/ironclaw.png",
+    "codes": "ironclaw"
+  },
+	
+	// Sandworm
+  {
+    "name": "sandworm",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/sandworm.png",
+    "codes": "sandworm"
+  },
+	
+	// AdamanTiMi
+  {
+    "name": "adamant",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/adamant.png",
+    "codes": "adamant"
+  },
+	
+	// Shiva
+  {
+    "name": "shiva",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/shiva.png",
+    "codes": "shiva"
+  },
+	
+	// Byblos
+  {
+    "name": "byblos",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/byblos.png",
+    "codes": "byblos"
+  },
+	
+	// Sol Cannon
+  {
+    "name": "solcannon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/solcannon.png",
+    "codes": "solcannon"
+  },
+	
+	// ArchaeAvis
+  {
+    "name": "archaeavis",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/archaeavis.png",
+    "codes": "archaeavis"
+  },
+	
+	// Ifrit
+  {
+    "name": "ifrit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/ifrit.png",
+    "codes": "ifrit"
+  },
+	
+	// Cray Claw
+  {
+    "name": "crayclaw",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/crayclaw.png",
+    "codes": "crayclaw"
+  },
+	
+	// Chim Brain
+  {
+    "name": "chimbrain",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/chimbrain.png",
+    "codes": "chimbrain"
+  },
+	
+	// Titan
+  {
+    "name": "titan",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/titan.png",
+    "codes": "titan"
+  },
+	
+	// Puroboros
+  {
+    "name": "puroboros",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/puroboros.png",
+    "codes": "puroboros"
+  },
+	
+	// Gilgamesh (1st)
+  {
+    "name": "gilga1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/gilga1_alt.png",
+    "codes": "gilga1"
+  },
+	
+	// Gilgamesh (2nd)
+  {
+    "name": "gilga2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/gilga2_alt.png",
+    "codes": "gilga2"
+  },
+
+	// Tyrasaurus
+  {
+    "name": "tyrasaurus",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/tyrasaurus_alt.png",
+    "codes": "tyrasaurus"
+  },
+	
+	// Antlion
+  {
+    "name": "antlion",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/antlion.png",
+    "codes": "antlion"
+  },
+	
+	// Gogo
+  {
+    "name": "gogo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/gogo.png",
+    "codes": "gogo"
+  },
+	
+	// Abductor
+  {
+    "name": "abductor",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/abductor.png",
+    "codes": "abductor"
+  },
+	
+	// HiryuuPlant
+  {
+    "name": "hiryuuplant",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/hiryuuplant_alt.png",
+    "codes": "hiryuuplant"
+  },
+	
+	// Gilgamesh + Enkidou
+  {
+    "name": "gilgaenki",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/gilgaenki_alt.png",
+    "codes": "gilgaenki"
+  },
+	
+	// Atmos
+  {
+    "name": "atomos",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/atomos.png",
+    "codes": "atomos"
+  },
+	
+	// Carbunkle
+  {
+    "name": "carbunkle",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/carbunkle.png",
+    "codes": "carbunkle"
+  },
+	
+	// Gilgamesh (4th)
+  {
+    "name": "gilga4",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/gilga4_alt.png",
+    "codes": "gilga4"
+  },
+  
+  // ExDeath
+  {
+    "name": "exdeath",
+    "type": "toggle",
+    "img": "images/bosses/exdeath.png",
+    "codes": "exdeath"
+  },
+	
+	// Guardians
+  {
+    "name": "guardian",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/guardian_alt.png",
+    "codes": "guardian"
+  },
+	
+	// Merugene
+  {
+    "name": "merugene",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/merugene.png",
+    "codes": "merugene"
+  },
+	
+	// Omniscient
+  {
+    "name": "omniscient",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/omniscient.png",
+    "codes": "omniscient"
+  },
+	
+	// Minotauros
+  {
+    "name": "minotaurus",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/minotaurus.png",
+    "codes": "minotaurus"
+  },
+	
+	// Leviathan
+  {
+    "name": "leviathan",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/leviathan.png",
+    "codes": "leviathan"
+  },
+	
+	// Stalker
+  {
+    "name": "stalker",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/stalker.png",
+    "codes": "stalker"
+  },
+	
+	// Odin
+  {
+    "name": "odin",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/odin.png",
+    "codes": "odin"
+  },
+	
+	// Triton / Neregeid / Phobos
+  {
+    "name": "triton",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/triton.png",
+    "codes": "triton"
+  },
+	
+	// Bahamut
+  {
+    "name": "bahamut",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/bahamut.png",
+    "codes": "bahamut"
+  },
+	
+	// Gargoyles
+  {
+    "name": "gargoyle_falls",
+	"type": "toggle",
+    "img": "images/bosses/gargoyle_alt.png",
+    "codes": "gargoyle_falls"
+  },
+  {
+    "name": "gargoyle_trench",
+	"type": "toggle",
+    "img": "images/bosses/gargoyle_alt.png",
+    "codes": "gargoyle_trench"
+  },
+  {
+    "name": "gargoyle_pyramid",
+	"type": "toggle",
+    "img": "images/bosses/gargoyle_alt.png",
+    "codes": "gargoyle_pyramid"
+  },
+  {
+    "name": "gargoyle_shrine",
+	"type": "toggle",
+    "img": "images/bosses/gargoyle_alt.png",
+    "codes": "gargoyle_shrine"
+  },
+  
+  	// Tablet Locations
+  {
+    "name": "tablet_falls",
+	"type": "toggle",
+    "img": "images/tablet.png",
+    "codes": "tablet_falls"
+  },
+  
+	// Calofisteri
+  {
+    "name": "calofisteri",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/calofisteri.png",
+    "codes": "calofisteri"
+  },
+	
+	// Apanda
+  {
+    "name": "apanda",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/apanda.png",
+    "codes": "apanda"
+  },
+	
+	// Azulmagia
+  {
+    "name": "apocalypse",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/azulmagia.png",
+    "codes": "apocalypse"
+  },
+	
+	// Catastroph
+  {
+    "name": "catastroph",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/catastroph.png",
+    "codes": "catastroph"
+  },
+	
+	// Halicarnassus
+  {
+    "name": "halicarnassus",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/halicarnassus.png",
+    "codes": "halicarnassus"
+  },
+	
+	// Twintania
+  {
+    "name": "twintania",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/twintania.png",
+    "codes": "twintania"
+  },
+	
+	// Necrophobe
+  {
+    "name": "necrophobe",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/necrophobe.png",
+    "codes": "necrophobe"
+  },
+	
+	// Ramuh
+  {
+    "name": "ramuh",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/ramuh.png",
+    "codes": "ramuh"
+  },
+	
+	// Golem
+  {
+    "name": "golem",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/golem.png",
+    "codes": "golem"
+  },
+	
+	// Shoat
+  {
+    "name": "shoat",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/shoat.png",
+    "codes": "shoat"
+  },
+  
+  // Butz Jobs
+  {
+    "name": "butz freelancer",
+    "type": "toggle",
+    "img": "images/jobs/butz_freelancer.png",
+    "codes": "butz_freelancer"
+  },
+  {
+    "name": "butz bard",
+    "type": "toggle",
+    "img": "images/jobs/butz_bard.png",
+    "codes": "butz_bard"
+  },
+  {
+    "name": "butz berserkr",
+    "type": "toggle",
+    "img": "images/jobs/butz_berserkr.png",
+    "codes": "butz_berserkr"
+  },
+  {
+    "name": "butz blue mage",
+    "type": "toggle",
+    "img": "images/jobs/butz_bluemage.png",
+    "codes": "butz_bluemage"
+  },
+  {
+    "name": "butz black mage",
+    "type": "toggle",
+    "img": "images/jobs/butz_bmage.png",
+    "codes": "butz_bmage"
+  },
+  {
+    "name": "butz chemist",
+    "type": "toggle",
+    "img": "images/jobs/butz_chemist.png",
+    "codes": "butz_chemist"
+  },
+  {
+    "name": "butz dancer",
+    "type": "toggle",
+    "img": "images/jobs/butz_dancer.png",
+    "codes": "butz_dancer"
+  },
+  {
+    "name": "butz dragoon",
+    "type": "toggle",
+    "img": "images/jobs/butz_dragoon.png",
+    "codes": "butz_dragoon"
+  },
+  {
+    "name": "butz geomancr",
+    "type": "toggle",
+    "img": "images/jobs/butz_geomancr.png",
+    "codes": "butz_geomancr"
+  },
+  {
+    "name": "butz hunter",
+    "type": "toggle",
+    "img": "images/jobs/butz_hunter.png",
+    "codes": "butz_hunter"
+  },
+  {
+    "name": "butz knight",
+    "type": "toggle",
+    "img": "images/jobs/butz_knight.png",
+    "codes": "butz_knight"
+  },
+  {
+    "name": "butz mimic",
+    "type": "toggle",
+    "img": "images/jobs/butz_mimic.png",
+    "codes": "butz_mimic"
+  },
+  {
+    "name": "butz monk",
+    "type": "toggle",
+    "img": "images/jobs/butz_monk.png",
+    "codes": "butz_monk"
+  },
+  {
+    "name": "butz mystic knight",
+    "type": "toggle",
+    "img": "images/jobs/butz_mystic.png",
+    "codes": "butz_mystic"
+  },
+  {
+    "name": "butz ninja",
+    "type": "toggle",
+    "img": "images/jobs/butz_ninja.png",
+    "codes": "butz_ninja"
+  },
+  {
+    "name": "butz red mage",
+    "type": "toggle",
+    "img": "images/jobs/butz_rmage.png",
+    "codes": "butz_rmage"
+  },
+  {
+    "name": "butz samurai",
+    "type": "toggle",
+    "img": "images/jobs/butz_samurai.png",
+    "codes": "butz_samurai"
+  },
+  {
+    "name": "butz summoner",
+    "type": "toggle",
+    "img": "images/jobs/butz_summoner.png",
+    "codes": "butz_summoner"
+  },
+  {
+    "name": "butz thief",
+    "type": "toggle",
+    "img": "images/jobs/butz_thief.png",
+    "codes": "butz_thief"
+  },
+  {
+    "name": "butz time mage",
+    "type": "toggle",
+    "img": "images/jobs/butz_tmage.png",
+    "codes": "butz_tmage"
+  },
+  {
+    "name": "butz trainer",
+    "type": "toggle",
+    "img": "images/jobs/butz_trainer.png",
+    "codes": "butz_trainer"
+  },
+  {
+    "name": "butz white mage",
+    "type": "toggle",
+    "img": "images/jobs/butz_wmage.png",
+    "codes": "butz_wmage"
+  },
+  
+  	// Lenna Jobs
+  {
+    "name": "lenna freelancer",
+    "type": "toggle",
+    "img": "images/jobs/lenna_freelancer.png",
+    "codes": "lenna_freelancer"
+  },
+  {
+    "name": "lenna bard",
+    "type": "toggle",
+    "img": "images/jobs/lenna_bard.png",
+    "codes": "lenna_bard"
+  },
+  {
+    "name": "lenna berserkr",
+    "type": "toggle",
+    "img": "images/jobs/lenna_berserkr.png",
+    "codes": "lenna_berserkr"
+  },
+  {
+    "name": "lenna blue mage",
+    "type": "toggle",
+    "img": "images/jobs/lenna_bluemage.png",
+    "codes": "lenna_bluemage"
+  },
+  {
+    "name": "lenna black mage",
+    "type": "toggle",
+    "img": "images/jobs/lenna_bmage.png",
+    "codes": "lenna_bmage"
+  },
+  {
+    "name": "lenna chemist",
+    "type": "toggle",
+    "img": "images/jobs/lenna_chemist.png",
+    "codes": "lenna_chemist"
+  },
+  {
+    "name": "lenna dancer",
+    "type": "toggle",
+    "img": "images/jobs/lenna_dancer.png",
+    "codes": "lenna_dancer"
+  },
+  {
+    "name": "lenna dragoon",
+    "type": "toggle",
+    "img": "images/jobs/lenna_dragoon.png",
+    "codes": "lenna_dragoon"
+  },
+  {
+    "name": "lenna geomancr",
+    "type": "toggle",
+    "img": "images/jobs/lenna_geomancr.png",
+    "codes": "lenna_geomancr"
+  },
+  {
+    "name": "lenna hunter",
+    "type": "toggle",
+    "img": "images/jobs/lenna_hunter.png",
+    "codes": "lenna_hunter"
+  },
+  {
+    "name": "lenna knight",
+    "type": "toggle",
+    "img": "images/jobs/lenna_knight.png",
+    "codes": "lenna_knight"
+  },
+  {
+    "name": "lenna mimic",
+    "type": "toggle",
+    "img": "images/jobs/lenna_mimic.png",
+    "codes": "lenna_mimic"
+  },
+  {
+    "name": "lenna monk",
+    "type": "toggle",
+    "img": "images/jobs/lenna_monk.png",
+    "codes": "lenna_monk"
+  },
+  {
+    "name": "lenna mystic knight",
+    "type": "toggle",
+    "img": "images/jobs/lenna_mystic.png",
+    "codes": "lenna_mystic"
+  },
+  {
+    "name": "lenna ninja",
+    "type": "toggle",
+    "img": "images/jobs/lenna_ninja.png",
+    "codes": "lenna_ninja"
+  },
+  {
+    "name": "lenna red mage",
+    "type": "toggle",
+    "img": "images/jobs/lenna_rmage.png",
+    "codes": "lenna_rmage"
+  },
+  {
+    "name": "lenna samurai",
+    "type": "toggle",
+    "img": "images/jobs/lenna_samurai.png",
+    "codes": "lenna_samurai"
+  },
+  {
+    "name": "lenna summoner",
+    "type": "toggle",
+    "img": "images/jobs/lenna_summoner.png",
+    "codes": "lenna_summoner"
+  },
+  {
+    "name": "lenna thief",
+    "type": "toggle",
+    "img": "images/jobs/lenna_thief.png",
+    "codes": "lenna_thief"
+  },
+  {
+    "name": "lenna time mage",
+    "type": "toggle",
+    "img": "images/jobs/lenna_tmage.png",
+    "codes": "lenna_tmage"
+  },
+  {
+    "name": "lenna trainer",
+    "type": "toggle",
+    "img": "images/jobs/lenna_trainer.png",
+    "codes": "lenna_trainer"
+  },
+  {
+    "name": "lenna white mage",
+    "type": "toggle",
+    "img": "images/jobs/lenna_wmage.png",
+    "codes": "lenna_wmage"
+  },
+  
+	// Galuf Jobs
+  {
+    "name": "galuf freelancer",
+    "type": "toggle",
+    "img": "images/jobs/galuf_freelancer.png",
+    "codes": "galuf_freelancer"
+  },
+  {
+    "name": "galuf bard",
+    "type": "toggle",
+    "img": "images/jobs/galuf_bard.png",
+    "codes": "galuf_bard"
+  },
+  {
+    "name": "galuf berserkr",
+    "type": "toggle",
+    "img": "images/jobs/galuf_berserkr.png",
+    "codes": "galuf_berserkr"
+  },
+  {
+    "name": "galuf blue mage",
+    "type": "toggle",
+    "img": "images/jobs/galuf_bluemage.png",
+    "codes": "galuf_bluemage"
+  },
+  {
+    "name": "galuf black mage",
+    "type": "toggle",
+    "img": "images/jobs/galuf_bmage.png",
+    "codes": "galuf_bmage"
+  },
+  {
+    "name": "galuf chemist",
+    "type": "toggle",
+    "img": "images/jobs/galuf_chemist.png",
+    "codes": "galuf_chemist"
+  },
+  {
+    "name": "galuf dancer",
+    "type": "toggle",
+    "img": "images/jobs/galuf_dancer.png",
+    "codes": "galuf_dancer"
+  },
+  {
+    "name": "galuf dragoon",
+    "type": "toggle",
+    "img": "images/jobs/galuf_dragoon.png",
+    "codes": "galuf_dragoon"
+  },
+  {
+    "name": "galuf geomancr",
+    "type": "toggle",
+    "img": "images/jobs/galuf_geomancr.png",
+    "codes": "galuf_geomancr"
+  },
+  {
+    "name": "galuf hunter",
+    "type": "toggle",
+    "img": "images/jobs/galuf_hunter.png",
+    "codes": "galuf_hunter"
+  },
+  {
+    "name": "galuf knight",
+    "type": "toggle",
+    "img": "images/jobs/galuf_knight.png",
+    "codes": "galuf_knight"
+  },
+  {
+    "name": "galuf mimic",
+    "type": "toggle",
+    "img": "images/jobs/galuf_freelancer.png",
+    "codes": "galuf_mimic"
+  },
+  {
+    "name": "galuf monk",
+    "type": "toggle",
+    "img": "images/jobs/galuf_monk.png",
+    "codes": "galuf_monk"
+  },
+  {
+    "name": "galuf mystic knight",
+    "type": "toggle",
+    "img": "images/jobs/galuf_mystic.png",
+    "codes": "galuf_mystic"
+  },
+  {
+    "name": "galuf ninja",
+    "type": "toggle",
+    "img": "images/jobs/galuf_ninja.png",
+    "codes": "galuf_ninja"
+  },
+  {
+    "name": "galuf red mage",
+    "type": "toggle",
+    "img": "images/jobs/galuf_rmage.png",
+    "codes": "galuf_rmage"
+  },
+  {
+    "name": "galuf samurai",
+    "type": "toggle",
+    "img": "images/jobs/galuf_samurai.png",
+    "codes": "galuf_samurai"
+  },
+  {
+    "name": "galuf summoner",
+    "type": "toggle",
+    "img": "images/jobs/galuf_summoner.png",
+    "codes": "galuf_summoner"
+  },
+  {
+    "name": "galuf thief",
+    "type": "toggle",
+    "img": "images/jobs/galuf_thief.png",
+    "codes": "galuf_thief"
+  },
+  {
+    "name": "galuf time mage",
+    "type": "toggle",
+    "img": "images/jobs/galuf_tmage.png",
+    "codes": "galuf_tmage"
+  },
+  {
+    "name": "galuf trainer",
+    "type": "toggle",
+    "img": "images/jobs/galuf_trainer.png",
+    "codes": "galuf_trainer"
+  },
+  {
+    "name": "galuf white mage",
+    "type": "toggle",
+    "img": "images/jobs/galuf_wmage.png",
+    "codes": "galuf_wmage"
+  },
+  
+	// Faris Jobs
+  {
+    "name": "faris freelancer",
+    "type": "toggle",
+    "img": "images/jobs/faris_freelancer.png",
+    "codes": "faris_freelancer"
+  },
+  {
+    "name": "faris bard",
+    "type": "toggle",
+    "img": "images/jobs/faris_bard.png",
+    "codes": "faris_bard"
+  },
+  {
+    "name": "faris berserkr",
+    "type": "toggle",
+    "img": "images/jobs/faris_berserkr.png",
+    "codes": "faris_berserkr"
+  },
+  {
+    "name": "faris blue mage",
+    "type": "toggle",
+    "img": "images/jobs/faris_bluemage.png",
+    "codes": "faris_bluemage"
+  },
+  {
+    "name": "faris black mage",
+    "type": "toggle",
+    "img": "images/jobs/faris_bmage.png",
+    "codes": "faris_bmage"
+  },
+  {
+    "name": "faris chemist",
+    "type": "toggle",
+    "img": "images/jobs/faris_chemist.png",
+    "codes": "faris_chemist"
+  },
+  {
+    "name": "faris dancer",
+    "type": "toggle",
+    "img": "images/jobs/faris_dancer.png",
+    "codes": "faris_dancer"
+  },
+  {
+    "name": "faris dragoon",
+    "type": "toggle",
+    "img": "images/jobs/faris_dragoon.png",
+    "codes": "faris_dragoon"
+  },
+  {
+    "name": "faris geomancr",
+    "type": "toggle",
+    "img": "images/jobs/faris_geomancr.png",
+    "codes": "faris_geomancr"
+  },
+  {
+    "name": "faris hunter",
+    "type": "toggle",
+    "img": "images/jobs/faris_hunter.png",
+    "codes": "faris_hunter"
+  },
+  {
+    "name": "faris knight",
+    "type": "toggle",
+    "img": "images/jobs/faris_knight.png",
+    "codes": "faris_knight"
+  },
+  {
+    "name": "faris mimic",
+    "type": "toggle",
+    "img": "images/jobs/faris_mimic.png",
+    "codes": "faris_mimic"
+  },
+  {
+    "name": "faris monk",
+    "type": "toggle",
+    "img": "images/jobs/faris_monk.png",
+    "codes": "faris_monk"
+  },
+  {
+    "name": "faris mystic knight",
+    "type": "toggle",
+    "img": "images/jobs/faris_mystic.png",
+    "codes": "faris_mystic"
+  },
+  {
+    "name": "faris ninja",
+    "type": "toggle",
+    "img": "images/jobs/faris_ninja.png",
+    "codes": "faris_ninja"
+  },
+  {
+    "name": "faris red mage",
+    "type": "toggle",
+    "img": "images/jobs/faris_rmage.png",
+    "codes": "faris_rmage"
+  },
+  {
+    "name": "faris samurai",
+    "type": "toggle",
+    "img": "images/jobs/faris_samurai.png",
+    "codes": "faris_samurai"
+  },
+  {
+    "name": "faris summoner",
+    "type": "toggle",
+    "img": "images/jobs/faris_summoner.png",
+    "codes": "faris_summoner"
+  },
+  {
+    "name": "faris thief",
+    "type": "toggle",
+    "img": "images/jobs/faris_thief.png",
+    "codes": "faris_thief"
+  },
+  {
+    "name": "faris time mage",
+    "type": "toggle",
+    "img": "images/jobs/faris_tmage.png",
+    "codes": "faris_tmage"
+  },
+  {
+    "name": "faris trainer",
+    "type": "toggle",
+    "img": "images/jobs/faris_trainer.png",
+    "codes": "faris_trainer"
+  },
+  {
+    "name": "faris white mage",
+    "type": "toggle",
+    "img": "images/jobs/faris_wmage.png",
+    "codes": "faris_wmage"
+  },
+  
+	// Cara Jobs
+  {
+    "name": "cara freelancer",
+    "type": "toggle",
+    "img": "images/jobs/cara_freelancer.png",
+    "codes": "cara_freelancer"
+  },
+  {
+    "name": "cara bard",
+    "type": "toggle",
+    "img": "images/jobs/cara_bard.png",
+    "codes": "cara_bard"
+  },
+  {
+    "name": "cara berserkr",
+    "type": "toggle",
+    "img": "images/jobs/cara_berserkr.png",
+    "codes": "cara_berserkr"
+  },
+  {
+    "name": "cara blue mage",
+    "type": "toggle",
+    "img": "images/jobs/cara_bluemage.png",
+    "codes": "cara_bluemage"
+  },
+  {
+    "name": "cara black mage",
+    "type": "toggle",
+    "img": "images/jobs/cara_bmage.png",
+    "codes": "cara_bmage"
+  },
+  {
+    "name": "cara chemist",
+    "type": "toggle",
+    "img": "images/jobs/cara_chemist.png",
+    "codes": "cara_chemist"
+  },
+  {
+    "name": "cara dancer",
+    "type": "toggle",
+    "img": "images/jobs/cara_dancer.png",
+    "codes": "cara_dancer"
+  },
+  {
+    "name": "cara dragoon",
+    "type": "toggle",
+    "img": "images/jobs/cara_dragoon.png",
+    "codes": "cara_dragoon"
+  },
+  {
+    "name": "cara geomancr",
+    "type": "toggle",
+    "img": "images/jobs/cara_geomancr.png",
+    "codes": "cara_geomancr"
+  },
+  {
+    "name": "cara hunter",
+    "type": "toggle",
+    "img": "images/jobs/cara_hunter.png",
+    "codes": "cara_hunter"
+  },
+  {
+    "name": "cara knight",
+    "type": "toggle",
+    "img": "images/jobs/cara_knight.png",
+    "codes": "cara_knight"
+  },
+  {
+    "name": "cara mimic",
+    "type": "toggle",
+    "img": "images/jobs/cara_mimic.png",
+    "codes": "cara_mimic"
+  },
+  {
+    "name": "cara monk",
+    "type": "toggle",
+    "img": "images/jobs/cara_monk.png",
+    "codes": "cara_monk"
+  },
+  {
+    "name": "cara mystic knight",
+    "type": "toggle",
+    "img": "images/jobs/cara_mystic.png",
+    "codes": "cara_mystic"
+  },
+  {
+    "name": "cara ninja",
+    "type": "toggle",
+    "img": "images/jobs/cara_ninja.png",
+    "codes": "cara_ninja"
+  },
+  {
+    "name": "cara red mage",
+    "type": "toggle",
+    "img": "images/jobs/cara_rmage.png",
+    "codes": "cara_rmage"
+  },
+  {
+    "name": "cara samurai",
+    "type": "toggle",
+    "img": "images/jobs/cara_samurai.png",
+    "codes": "cara_samurai"
+  },
+  {
+    "name": "cara summoner",
+    "type": "toggle",
+    "img": "images/jobs/cara_summoner.png",
+    "codes": "cara_summoner"
+  },
+  {
+    "name": "cara thief",
+    "type": "toggle",
+    "img": "images/jobs/cara_thief.png",
+    "codes": "cara_thief"
+  },
+  {
+    "name": "cara time mage",
+    "type": "toggle",
+    "img": "images/jobs/cara_tmage.png",
+    "codes": "cara_tmage"
+  },
+  {
+    "name": "cara trainer",
+    "type": "toggle",
+    "img": "images/jobs/cara_trainer.png",
+    "codes": "cara_trainer"
+  },
+  {
+    "name": "cara white mage",
+    "type": "toggle",
+    "img": "images/jobs/cara_wmage.png",
+    "codes": "cara_wmage"
+  },
+  
+  // Label Jobs
+  {
+    "name": "label freelancer",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_freelancer.png",
+    "codes": "label_freelancer"
+  },
+  {
+    "name": "label bard",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_bard.png",
+    "codes": "label_bard"
+  },
+  {
+    "name": "label berserkr",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_berserkr.png",
+    "codes": "label_berserkr"
+  },
+  {
+    "name": "label blue mage",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_bluemage.png",
+    "codes": "label_bluemage"
+  },
+  {
+    "name": "label black mage",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_bmage.png",
+    "codes": "label_bmage"
+  },
+  {
+    "name": "label chemist",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_chemist.png",
+    "codes": "label_chemist"
+  },
+  {
+    "name": "label dancer",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_dancer.png",
+    "codes": "label_dancer"
+  },
+  {
+    "name": "label dragoon",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_dragoon.png",
+    "codes": "label_dragoon"
+  },
+  {
+    "name": "label geomancr",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_geomancr.png",
+    "codes": "label_geomancr"
+  },
+  {
+    "name": "label hunter",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_hunter.png",
+    "codes": "label_hunter"
+  },
+  {
+    "name": "label knight",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_knight.png",
+    "codes": "label_knight"
+  },
+  {
+    "name": "label mimic",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_mimic.png",
+    "codes": "label_mimic"
+  },
+  {
+    "name": "label monk",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_monk.png",
+    "codes": "label_monk"
+  },
+  {
+    "name": "label mystic knight",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_mystic.png",
+    "codes": "label_mystic"
+  },
+  {
+    "name": "label ninja",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_ninja.png",
+    "codes": "label_ninja"
+  },
+  {
+    "name": "label red mage",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_rmage.png",
+    "codes": "label_rmage"
+  },
+  {
+    "name": "label samurai",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_samurai.png",
+    "codes": "label_samurai"
+  },
+  {
+    "name": "label summoner",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_summoner.png",
+    "codes": "label_summoner"
+  },
+  {
+    "name": "label thief",
+    "type": "toggle","allow_disabled": false,
+    "img": "images/labels/label_thief.png",
+    "codes": "label_thief"
+  },
+  {
+    "name": "label time mage",
+    "type": "toggle",
+	"allow_disabled": false,
+    "img": "images/labels/label_tmage.png",
+    "codes": "label_tmage"
+  },
+  {
+    "name": "label trainer",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_trainer.png",
+    "codes": "label_trainer"
+  },
+  {
+    "name": "label white mage",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/label_wmage.png",
+    "codes": "label_wmage"
+  },
+  
+  // key item labels
+  {
+    "name": "ke",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/ke.png",
+    "codes": "ke"
+  },
+  {
+    "name": "yi",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/yi.png",
+    "codes": "yi"
+  },
+  {
+    "name": "te",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/te.png",
+    "codes": "te"
+  },
+  {
+    "name": "ms",
+	"allow_disabled": false,
+    "type": "toggle",
+    "img": "images/labels/ms.png",
+    "codes": "ms"
+  }
+ ] 
+  

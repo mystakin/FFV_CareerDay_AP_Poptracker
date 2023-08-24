@@ -1,0 +1,1 @@
+ScriptHost:LoadScript("scripts/autotracking.lua") --call autotracking

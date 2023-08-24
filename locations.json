@@ -1,0 +1,922 @@
+[
+	{
+		"name": "World 1",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_open.png",
+		"children": [
+			{
+			"name": "Tule",
+			"sections": [
+				{
+					"name": "Greenhorn Monster-in-a-Box"
+				}
+				],
+				"map_locations": [
+				{
+					"map": "world1",
+					"x": 2089,
+					"y": 1433
+				},
+				{
+					"map": "world3",
+					"x": 2089,
+					"y": 1433
+				}
+			]
+			},
+			{
+			"name": "Wind Shrine",
+			"sections": [
+				{
+					"name": "Wing Raptor",
+					"hosted_item": "wingraptor"
+				},
+				{
+					"name": "Wind Crystal",
+					"item_count": 6,
+					"chest_unopened_img": "images/crystal_full.png",
+					"chest_opened_img": "images/crystal_shard.png",
+					"clear_as_group": false
+				}
+				],
+				"map_locations": [
+				{
+					"map": "world1",
+					"x": 2915,
+					"y": 840
+				}
+			]
+			},
+			{
+			"name": "North Mountain",
+			"sections": [
+				{
+					"name": "Magisa",
+					"hosted_item": "magisa",
+				}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3625,
+						"y": 630
+					}
+				]
+			},
+			{
+				"name": "Canal",
+				"sections": [
+					{
+						"name": "Karlabos",
+						"hosted_item": "karlibos"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 2750,
+						"y": 1420
+					}
+				]
+			},
+			{
+				"name": "Ship Graveyard",
+				"sections": [
+					{
+						"name": "Siren",
+						"access_rules": [
+							"karlibos"
+						],
+						"hosted_item": "siren",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3380,
+						"y": 760
+					}
+				]
+			},
+			{
+				"name": "Castle Walse",
+				"sections": [
+					{
+						"name": "Shiva",
+						"hosted_item": "shiva",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3375,
+						"y": 1850
+					}
+				]
+			},
+			{
+				"name": "Walse Tower",
+				"access_rules": [ "walse" ],
+				"sections": [
+					{
+						"name": "Galura",
+						"hosted_item": "galura",
+					},
+					,
+					{
+						"name": "Water Crystal",
+						"item_count": 5,
+						"chest_unopened_img": "images/crystal_full.png",
+						"chest_opened_img": "images/crystal_shard.png",
+						"clear_as_group": false
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3200,
+						"y": 1355
+					}
+				]
+			},
+			{
+				"name": "Walse Meteor",
+				"sections": [
+					{
+						"name": "Puroboros",
+						"hosted_item": "puroboros"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3272,
+						"y": 1353
+					}
+				]
+			},
+			{
+				"name": "Karnak Meteor",
+				"sections": [
+					{
+						"name": "Titan",
+						"hosted_item": "titan"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1945,
+						"y": 1465
+					}
+				]
+			},
+			{
+				"name": "Lonka Ruins",
+				"sections": [
+					{
+						"name": "CrayClaw",
+						"hosted_item": "crayclaw",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1020,
+						"y": 2600
+					}
+				]
+			},
+			{
+				"name": "Flying Lonka Ruins",
+				"access_rules": [ "adamantite" ],
+				"sections": [
+					{
+						"name": "SolCannon",
+						"hosted_item": "solcannon"
+					},
+					{
+						"name": "ArchaeAvis",
+						"hosted_item": "archaeavis",
+					},
+					{
+						"name": "Earth Crystal",
+						"item_count": 4,
+						"chest_unopened_img": "images/crystal_full.png",
+						"chest_opened_img": "images/crystal_shard.png",
+						"clear_as_group": false
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1020,
+						"y": 2700
+					}
+				]
+			},
+			{
+				"name": "Lonka Meteor",
+				"sections": [
+					{
+						"name": "ChimBrain",
+						"access_rules": [
+							"crayclaw"
+						],
+						"hosted_item": "chimbrain"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1000,
+						"y": 2520
+					}
+				]
+			},
+			{
+				"name": "Tycoon Meteor",
+				"sections": [
+					{
+						"name": "AdamanTiMi",
+						"hosted_item": "adamant"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 2810,
+						"y": 2280
+					}
+				]
+			},
+			{
+				"name": "Desert",
+				"sections": [
+					{
+						"name": "Sandworm",
+						"access_rules": [
+							"bait"
+						],
+						"hosted_item": "sandworm"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 730,
+						"y": 1760
+					}
+				]
+			},
+			{
+				"name": "Steamship",
+				"sections": [
+					{
+						"name": "LiquiFlame",
+						"access_rules": [
+							"steamship"
+						],
+						"hosted_item": "liquidflame",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1355,
+						"y": 1270
+					}
+				]
+			},
+			{
+				"name": "Burning Karnak",
+				"access_rules": [ "liquidflame" ],
+				"sections": [
+					{
+						"name": "Internal Monster-in-a-Box",
+					},
+					{
+						"name": "Left Entrance Monster-in-a-Box",
+					},
+					{
+						"name": "Right Entrance Monster-in-a-Box",
+					},
+					{
+						"name": "Iron Claw",
+						"hosted_item": "ironclaw",
+					},
+					{
+						"name": "Fire Crystal",
+						"item_count": 3,
+						"chest_unopened_img": "images/crystal_full.png",
+						"chest_opened_img": "images/crystal_shard.png",
+						"clear_as_group": false
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1335,
+						"y": 1180
+					}
+				]
+			},
+			{
+				"name": "Library Of The Ancients",
+				"sections": [
+					{
+						"name": "Ifrit",
+						"hosted_item": "ifrit"
+					},
+					{
+						"name": "Byblos",
+						"access_rules": [
+							"fire"
+						],
+						"hosted_item": "byblos"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 1270,
+						"y": 1915
+					}
+				]
+			},
+			{
+				"name": "Crescent Island",
+				"sections": [
+					{
+						"name": "Black Chocobo Crystal",
+						"item_count": 2,
+						"chest_unopened_img": "images/crystal_full.png",
+						"chest_opened_img": "images/crystal_shard.png",
+						"clear_as_group": false
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world1",
+						"x": 3400,
+						"y": 3350
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "World 2",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_open.png",
+		"access_rules": [ "map2" ],
+		"children": [
+			{
+				"name": "Castle Bal",
+				"sections": [
+					{
+						"name": "Abductor",
+						"hosted_item": "abductor"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 1360,
+						"y": 2805
+					}
+				]
+			},
+			{
+				"name": "Underground Waterway",
+				"sections": [
+					{
+						"name": "Tyrasaurus",
+						"hosted_item": "tyrasaurus",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2913,
+						"y": 1280
+					}
+				]
+			},
+			{
+				"name": "Mua",
+				"sections": [
+					{
+						"name": "Chicken Knife or Brave Blade",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 370,
+						"y": 1830
+					},
+					{
+						"map": "world3",
+						"x": 370,
+						"y": 1830
+					}
+				]
+			},
+			{
+				"name": "Mua Forest",
+				"sections": [
+					{
+						"name": "Guardian",
+						"access_rules": [
+							"branch"
+						],
+						"hosted_item": "guardian",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 905,
+						"y": 1945
+					}
+				]
+			},
+			{
+				"name": "Hiryuu Valley",
+				"sections": [
+					{
+						"name": "HiryuuPlant",
+						"hosted_item": "hiryuuplant",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 1290,
+						"y": 2170
+					}
+				]
+			},
+			{
+				"name": "Big Bridge",
+				"sections": [
+					{
+						"access_rules": [
+							"bridge"
+						],
+						"hosted_item": "gilga2",
+						"name": "Gilgamesh II"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2320,
+						"y": 2487
+					}
+				]
+			},
+			{
+				"name": "Castle Exdeath",
+				"sections": [
+					{
+						"name": "Gilgamesh I",
+						"access_rules": [
+							"antibarrier"
+						],
+						"hosted_item": "gilga1",
+					},
+					{
+						"name": "Carbunkle",
+						"access_rules": [
+							"antibarrier,bracelet"
+						],
+						"hosted_item": "carbunkle",
+					},
+					{
+						"name": "Gilgamesh IV",
+						"access_rules": [
+							"antibarrier,bracelet"
+						],
+						"hosted_item": "gilga4"
+					},
+					{
+						"name": "ExDeath",
+						"access_rules": [
+							"antibarrier,bracelet"
+						],
+						"hosted_item": "exdeath"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2570,
+						"y": 2490
+					}
+				]
+			},
+			{
+				"name": "Moogle Village",
+				"access_rules": [ "moogle" ],
+				"sections": [
+					{
+						"clear_as_group": false,
+						"name": "Chest",
+						"item_count": 6
+					},
+					{
+						"name": "Friendly Moogle Chest"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 3510,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Barrier Tower",
+				"access_rules": [ "sub" ],
+				"sections": [
+					{
+						"name": "Lower Monster-in-a-Box"
+					},
+					{
+						"name": "Higher Monster-in-a-Box"
+					},
+					{
+						"name": "Atmos",
+						"hosted_item": "atomos"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2680,
+						"y": 2590
+					}
+				]
+			},
+			{
+				"name": "Zeza's Fleet",
+				"access_rules": [ "hiryuu" ],
+				"sections": [
+					{
+						"name": "Gilgamesh III",
+						"hosted_item": "gilgaenki"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2855,
+						"y": 2620
+					}
+				]
+			},
+			{
+				"name": "Castle Kuzar",
+				"sections": [
+					{
+						"clear_as_group": false,
+						"name": "1st Tablet",
+						"access_rules": [
+							"tablet1"
+						],
+						"item_count": 4
+					},
+					{
+						"clear_as_group": false,
+						"name": "2nd Tablet",
+						"access_rules": [
+							"tablet2"
+						],
+						"item_count": 4
+					},
+					{
+						"clear_as_group": false,
+						"name": "3rd Tablet",
+						"access_rules": [
+							"tablet3"
+						],
+						"item_count": 4
+					},
+					{
+						"clear_as_group": false,
+						"name": "4th Tablet",
+						"access_rules": [
+							"tablet4"
+						],
+						"item_count": 4
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world2",
+						"x": 2400,
+						"y": 1320
+					},
+					{
+						"map": "world3",
+						"x": 2400,
+						"y": 1320
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "World 3",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_open.png",
+		"access_rules": [ "map3" ],
+		"children": [
+			{
+				"name": "Istory Falls",
+				"access_rules": [ "falls,sub" ],
+				"sections": [
+					{
+						"name": "Gargoyles",
+						"hosted_item": "gargoyle_falls",
+					},
+					{
+						"name": "Tablet",
+						"hosted_item": "tablet_falls",
+					},
+					{
+						"name": "Leviathan",
+						"hosted_item": "leviathan"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 905,
+						"y": 715
+					}
+				]
+			},
+			{
+				"name": "Great Trench",
+				"access_rules": [ "trench,sub" ],
+				"sections": [
+					{
+						"name": "Gargoyles",
+						"hosted_item": "gargoyle_trench",
+					},
+					{
+						"name": "Triplets",
+						"hosted_item": "triton",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 3625,
+						"y": 3055
+					}
+				]
+			},
+			{
+				"name": "North Mountain",
+				"access_rules": [ "radar" ],
+				"sections": [
+					{
+						"name": "Magisa",
+						"hosted_item": "magisa"
+					},
+					{
+						"name": "Bahamut",
+						"hosted_item": "bahamut"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 3625,
+						"y": 630
+					}
+				]
+			},
+			{
+				"name": "Antlion's Pit",
+				"sections": [
+					{
+						"name": "Antlion",
+						"hosted_item": "antlion"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 1945,
+						"y": 1420
+					}
+				]
+			},
+			{
+				"name": "Underwater Walse Tower",
+				"sections": [
+					{
+						"access_rules": [ "sub" ],
+						"hosted_item": "gogo",
+						"name": "Gogo"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 3240,
+						"y": 1420
+					}
+				]
+			},
+			{
+				"name": "Pyramid",
+				"access_rules": [ "pyramid" ],
+				"sections": [
+					{
+						"name": "Gargoyles",
+						"hosted_item": "gargoyle_pyramid"
+					},
+					{
+						"name": "Sand Room Monster-in-a-Box",
+					},
+					{
+						"name": "Small Room Monster-in-a-Box Left",
+					},
+					{
+						"name": "Small Room Monster-in-a-Box Right",
+					},
+					{
+						"name": "Merugene",
+						"hosted_item": "merugene"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 712,
+						"y": 1962
+					}
+				]
+			},
+			{
+				"name": "Castle Bal (Cave)",
+				"sections": [
+					{
+						"name": "Odin",
+						"hosted_item": "odin"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 1225,
+						"y": 2840
+					}
+				]
+			},
+			{
+				"name": "Island Shrine",
+				"access_rules": [ "shrine" ],
+				"sections": [
+					{
+						"name": "Gargoyles",
+						"hosted_item": "gargoyle_shrine",
+					},
+					{
+						"name": "Air Ducts Monster-in-a-Box",
+					},
+					{
+						"name": "Big Room Monster-in-a-Box",
+					},
+					{
+						"name": "Stalker",
+						"hosted_item": "stalker",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 2120,
+						"y": 2490
+					}
+				]
+			},
+			{
+				"name": "Fork Tower",
+				"access_rules": [ "guardian" ],
+				"sections": [
+					{
+						"name": "Omniscient",
+						"hosted_item": "omniscient"
+					},
+					{
+						"hosted_item": "minotaurus",
+						"name": "Minotauros"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 3305,
+						"y": 3210
+					}
+				]
+			},
+			{
+				"name": "Castle Walse",
+				"sections": [
+					{
+						"name": "Shiva",
+						"hosted_item": "shiva",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 3375,
+						"y": 1850
+					}
+				]
+			},
+			{
+				"name": "Castle Bal",
+				"sections": [
+					{
+						"name": "Abductor",
+						"hosted_item": "abductor"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 1360,
+						"y": 2805
+					}
+				]
+			},
+		]
+	},
+	,
+	{
+		"name": "The Void",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_open.png",
+		"access_rules": [ "map4" ],
+		"children": [
+			{
+				"name": "The Void",
+				"sections": [
+					{
+						"access_rules": [ "tablet2" ],
+						"name": "Calofisteri",
+						"hosted_item": "calofisteri"
+					},
+					{
+						"access_rules": [ "tablet3" ],
+						"name": "Apanda",
+						"hosted_item": "apanda"
+					},
+					{
+						"access_rules": [ "tablet3" ],
+						"name": "Apocalypse",
+						"hosted_item": "apocalypse"
+					},
+					{
+						"access_rules": [ "tablet3" ],
+						"name": "Catastroph",
+						"hosted_item": "catastroph"
+					},
+					{
+						"access_rules": [ "tablet4" ],
+						"name": "Halicarnasso",
+						"hosted_item": "halicarnassus"
+					},
+					{
+						"access_rules": [ "tablet4" ],
+						"name": "TwinTania",
+						"hosted_item": "twintania"
+					},
+					{
+						"access_rules": [ "tablet4" ],
+						"name": "Necrofobia",
+						"hosted_item": "necrophobe"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "world3",
+						"x": 2943,
+						"y": 2119
+					}
+				]
+			},
+		]
+	}
+]

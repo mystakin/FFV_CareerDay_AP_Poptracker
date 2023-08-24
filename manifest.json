@@ -1,0 +1,16 @@
+﻿{
+  "name": "FFV Career Day",
+  "game_name": "Final Fantasy V: Career Day Archipelago",
+  "game_variant": "None",
+  "package_version": "1.0.0.0",
+  "package_uid": "ffv_careerday_mystakin",
+  "original authors": "Doicm, RoryExtraLife",
+  "author": "mystakin",
+  "variants":
+		{
+			"map":{
+				"display_name": "Archipelago Manual",
+				"flags": [ "ap" ]
+			}
+		}
+}

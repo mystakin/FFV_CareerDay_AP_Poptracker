@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "world1",
+    "img": "images/world1.png"
+  },
+  {
+    "name": "world2",
+    "img": "images/world2.png"
+  },
+  {
+    "name": "world3",
+    "img": "images/world3.png"
+  }
+]
