@@ -1,7 +1,7 @@
 # PopTracker pack for Career Day Archipelago Randomizer
 
 A PopTracker pack for 
-[the Career Day Archipelago Randomizer](https://github.com/weffjebster/ff5careerdaymanualAP)
+[the Career Day Manual Archipelago Randomizer](https://github.com/weffjebster/ff5careerdaymanualAP)
 
 ## Requirements
 [PopTracker](https://github.com/black-sliver/PopTracker)
@@ -13,7 +13,7 @@ A PopTracker pack for
 
 ## Usage
 
-- List of all bosses and locations relevant to the Archipelago randomizer
+- List of all bosses and locations relevant to the Manual Archipelago randomizer
 - Automatically tracks locations and items when connected to Archipelago server
 - Broadcast view for easier window capture for streamers
 
