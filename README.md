@@ -1,6 +1,6 @@
 # PopTracker pack for Career Day Archipelago Randomizer
 
-An PopTracker pack for 
+A PopTracker pack for 
 [the Career Day Archipelago Randomizer](https://github.com/weffjebster/ff5careerdaymanualAP)
 
 ## Requirements
